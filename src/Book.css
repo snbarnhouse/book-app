@@ -1,5 +1,8 @@
 body {
     font-family: sans-serif;
+    border-radius: 8px;
+    max-width: 1600px;
+    margin: 0 auto;
 }
 
 .App {
@@ -19,7 +22,6 @@ body {
 
 p {
     font-weight: bold;
-    
 }
 
 .app-logo {
