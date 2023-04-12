@@ -1,13 +1,13 @@
 body {
     font-family: sans-serif;
-    border-radius: 5px;
-    max-width: 1600px;
+    border-radius: 12px;
+    max-width: 1400px;
     margin: 0 auto;
 }
 
 .App {
     max-width: 1200px;
-    margin: 30px auto;
+    margin: 160px auto;
     background-color: #FFFFFF;
     text-align: center;
     border-radius: 8px;
