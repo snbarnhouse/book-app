@@ -1,6 +1,6 @@
 body {
     font-family: sans-serif;
-    border-radius: 8px;
+    border-radius: 5px;
     max-width: 1600px;
     margin: 0 auto;
 }
@@ -16,8 +16,9 @@ body {
 .searchButton {
     background-color: #7294E9;
     border-radius: 8px;
-    padding: 6px 24px;
+    padding: 4px 20px;
     font-family: sans-serif;
+    margin-left: -35px;
 }
 
 p {
@@ -26,5 +27,9 @@ p {
 
 .app-logo {
     border-radius: 8px;
+}
+
+form {
+    margin-right: 120px;
 }
 
