@@ -12,7 +12,7 @@ export default function Book() {
             BookHound makes it easy to find any book. Search and browse
             through lists of books that match a given search word or phrase. You can view
             information about a book including availability, price, and a
-            preview of the book.
+            preview of the book. Find your perfect book below.
           </p>
           <form>
             <div className="row mt-5">
