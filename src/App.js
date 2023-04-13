@@ -10,7 +10,7 @@ function App() {
         <Book />
       </main>
     <footer>
-      <a href="https://github.com/snbarnhouse/book-app" target="_blank" rel="noreferrer">Open Source</a> Code
+      BookHound was coded by <a href="https://dreamy-visvesvaraya-894128.netlify.app/index.html" target="_blank" rel="noreferrer">Stephanie Barnhouse</a> and is<a href="https://github.com/snbarnhouse/book-app" target="_blank" rel="noreferrer"> open source</a> code
     </footer>
     </div>
   );
