@@ -13,13 +13,13 @@ body {
     border-radius: 8px;
 }
 
-.searchButton {
+/* .searchButton {
     background-color: #7294E9;
     border-radius: 8px;
     padding: 4px 20px;
     font-family: sans-serif;
     margin-left: -35px;
-}
+} */
 
 p {
     font-weight: bold;
@@ -30,11 +30,11 @@ p {
     margin-left: 24px;
 }
 
-form {
+/* form {
     margin-right: 120px;
-}
+} */
 
-.searchBox {
-    border-radius: 6px;
-}
+/* .searchBox {
+    border-radius: 6px !important;
+} */
 

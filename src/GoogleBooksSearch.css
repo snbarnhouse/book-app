@@ -1,0 +1,12 @@
+.search-btn {
+    background-color: #7294E9;
+    border-radius: 8px;
+    padding: 4px 20px;
+    font-family: sans-serif;
+    margin-left: -35px;
+}
+
+.main-search {
+    margin-top: -100px;
+    margin-bottom: 200px;
+}

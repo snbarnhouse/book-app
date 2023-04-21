@@ -1,6 +1,8 @@
 import React, { useState } from "react";  
 import axios from 'axios';  
 import { Card } from 'react-bootstrap';  
+import "./GoogleBooksSearch.css";
+
 //Google book search api
 function GoogleBooksSearch() {  
     const [book, setBook] = useState("");  
@@ -27,7 +29,7 @@ function GoogleBooksSearch() {
                         <input onChange={handleChange} className="AutoFocus form-control" placeholder="Search for a book" type="text" />  
                     </div>  
                     <div className="ml-auto">  
-                        <input type="submit" value="🔍 Find Book" className="btn btn-primary search-btn" />  
+                        <input type="submit" value="🔍 Find Book" className="search-btn" />  
                     </div>  
                 </div>  
             </div>  
@@ -40,7 +42,7 @@ function GoogleBooksSearch() {
                                 <Card.Img variant="top" src={book.volumeInfo.imageLinks !== undefined ? book.volumeInfo.imageLinks.thumbnail : ''} alt={book.title} />  
                                 <Card.Body>  
                                     <h5 className="card-title">Card title</h5>  
-                                    <a className="btn btn-primary">Learn More</a>  
+                                    {/* <a className="btn btn-primary">Learn More</a>   */}
                                 </Card.Body>  
                             </Card>  
                         </div>  
