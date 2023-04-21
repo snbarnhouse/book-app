@@ -14,7 +14,7 @@ export default function Book() {
             information about a book including availability, price, and a
             preview of the book. Find your perfect book below.
           </p>
-          <form>
+          {/* <form>
             <div className="row mt-5">
                 <div className="col-9">
             <input type="search" placeholder="Search for a book" className="searchBox" />
@@ -23,7 +23,7 @@ export default function Book() {
             <input type="submit" value="🔍 Find Book" className="searchButton"/>
             </div>
             </div>
-        </form>
+        </form> */}
         </div>
         <div className="col-6 mt-5">
           <img src={logo} alt="books" className="img-fluid app-logo" />
