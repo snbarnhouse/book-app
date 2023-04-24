@@ -25,11 +25,11 @@ function GoogleBooksSearch() {
         <form onSubmit={handleSubmit}>  
             <div className="card-header main-search">  
                 <div className="row">  
-                    <div className="col-12 col-md-3 col-xl-3">  
-                        <input onChange={handleChange} className="AutoFocus form-control" placeholder="Search for a book" type="text" />  
+                    <div className="col-9 col-md-3 col-xl-3">  
+                        <input onChange={handleChange} className="AutoFocus form-control" placeholder="Search for a book" type="text" /> 
                     </div>  
-                    <div className="ml-auto">  
-                        <input type="submit" value="🔍 Find Book" className="btn btn-primary search-btn" />  
+                    <div className="col-3 ml-auto">  
+                        <input type="submit" value="🔍 Find Books" className="btn btn-primary search-btn" />  
                     </div>  
                 </div>  
             </div>  
