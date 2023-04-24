@@ -10,3 +10,14 @@
     margin-top: -100px;
     margin-bottom: 200px;
 }
+
+.learn-more {
+    background-color: #7294E9;
+    border-color: #7294E9;
+}
+
+.learn-more:hover {
+    background-color: white;
+    color: #7294E9;
+    border-color: #7294E9;
+}

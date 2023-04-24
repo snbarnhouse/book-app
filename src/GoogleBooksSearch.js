@@ -7,7 +7,7 @@ import "./GoogleBooksSearch.css";
 function GoogleBooksSearch() {  
     const [book, setBook] = useState("");  
     const [result, setResult] = useState([]);  
-    const [apiKey, setApiKey] = useState("AIzaSyCqi37mzRrzkBrDZDb0BX9_IarX5iMOT88")  
+    const [apiKey, setApiKey] = useState("AIzaSyCqi37mzRrzkBrDZDb0BX9_IarX5iMOT88");  
   
     function handleChange(event) {  
         const book = event.target.value;  
@@ -42,7 +42,7 @@ function GoogleBooksSearch() {
                                 <Card.Img variant="top" src={book.volumeInfo.imageLinks !== undefined ? book.volumeInfo.imageLinks.thumbnail : ''} alt={book.title} />  
                                 <Card.Body>  
                                     <h5 className="card-title">Card title</h5>  
-                                    {/* <a className="btn btn-primary">Learn More</a>   */}
+                                    <a className="btn btn-primary learn-more">Learn More</a>  
                                 </Card.Body>  
                             </Card>  
                         </div>  
