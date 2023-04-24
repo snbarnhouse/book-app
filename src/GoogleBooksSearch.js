@@ -29,7 +29,7 @@ function GoogleBooksSearch() {
                         <input onChange={handleChange} className="AutoFocus form-control" placeholder="Search for a book" type="text" />  
                     </div>  
                     <div className="ml-auto">  
-                        <input type="submit" value="🔍 Find Book" className="search-btn" />  
+                        <input type="submit" value="🔍 Find Book" className="btn btn-primary search-btn" />  
                     </div>  
                 </div>  
             </div>  

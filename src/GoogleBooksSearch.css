@@ -1,9 +1,15 @@
 .search-btn {
     background-color: #7294E9;
-    border-radius: 8px;
-    padding: 4px 20px;
     font-family: sans-serif;
     margin-left: -35px;
+    border-color: #7294E9;
+    color: white;
+}
+
+.search-btn:hover {
+    background-color: white;
+    color:#7294E9;
+
 }
 
 .main-search {
