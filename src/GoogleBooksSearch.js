@@ -19,7 +19,7 @@ function GoogleBooksSearch() {
         event.preventDefault();  
         axios.get("https://www.googleapis.com/books/v1/volumes?q=" + book + "&key=" + apiKey + "&maxResults=24")  
             .then(data => {  
-                console.log(data.data.items);  
+                // console.log(data.data.items);  
                 setResult(data.data.items);  
             })  
     }  
