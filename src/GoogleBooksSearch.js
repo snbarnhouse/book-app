@@ -38,6 +38,7 @@ function GoogleBooksSearch() {
             <div className="container">  
                 <div className="row">  
                     {result.map(book => (  
+                        //6 per row
                         <div className="col-sm-2">  
                             <Card style={{ 'marginTop': '10px' }}>  
   
