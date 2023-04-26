@@ -19,7 +19,7 @@ function GoogleBooksSearch() {
         event.preventDefault();  
         axios.get("https://www.googleapis.com/books/v1/volumes?q=" + book + "&key=" + apiKey + "&maxResults=24")  
             .then(data => {  
-                // console.log(data.data.items);  
+                console.log(data.data.items);  
                 setResult(data.data.items);  
             })  
     }  
@@ -43,7 +43,8 @@ function GoogleBooksSearch() {
   
                                 <Card.Img variant="top" src={book.volumeInfo.imageLinks !== undefined ? book.volumeInfo.imageLinks.thumbnail : ''} alt={book.title} />  
                                 <Card.Body>  
-                                    <h5 className="card-title">Card title</h5>  
+                                    <h5 className="card-title">{book.volumeInfo.title}</h5>  
+                                    <small>by:</small>
                                     <a className="btn btn-primary learn-more">Learn More</a>  
                                 </Card.Body>  
                             </Card>  
