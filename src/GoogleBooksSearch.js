@@ -44,7 +44,7 @@ function GoogleBooksSearch() {
                                 <Card.Img variant="top" src={book.volumeInfo.imageLinks !== undefined ? book.volumeInfo.imageLinks.thumbnail : ''} alt={book.title} />  
                                 <Card.Body>  
                                     <h5 className="card-title">{book.volumeInfo.title}</h5>  
-                                    <small>by:</small>
+                                    <small>by:{book.volumeInfo.authors[0]}</small>
                                     <a className="btn btn-primary learn-more">Learn More</a>  
                                 </Card.Body>  
                             </Card>  
