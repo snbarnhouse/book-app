@@ -45,6 +45,7 @@ function GoogleBooksSearch() {
                                 <Card.Body>  
                                     <h5 className="card-title">{book.volumeInfo.title}</h5>  
                                     <small>by:{book.volumeInfo.authors[0]}</small>
+                                    {/* <p>Description: {book.volumeInfo.description}</p> */}
                                     <a className="btn btn-primary learn-more">Learn More</a>  
                                 </Card.Body>  
                             </Card>  
